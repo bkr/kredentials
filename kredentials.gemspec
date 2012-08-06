@@ -4,9 +4,9 @@ require File.expand_path('../lib/kredentials/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Bookrenter/Rafter"]
   gem.email         = ["cp@bookrenter.com"]
-  gem.description   = %q{Gem allows to define config constants for different environments.}
-  gem.summary       = %q{Gem allows to define config constants for different environments.}
-  gem.homepage      = ""
+  gem.description   = %q{Gem allows to define config constants for different Rails environments.}
+  gem.summary       = %q{Gem allows to define config constants for different Rails environments.}
+  gem.homepage      = "https://github.com/bkr/kredentials"
 
   gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'supermodel'

@@ -20,11 +20,12 @@ end
 
 describe "kredentials" do
   describe "test" do
-    before do     
-      class Rails
-      end
-      
-      Rails.stub(:env).and_return("test")
+    before do
+      if !defined?(Rails)
+        class Rails
+        end
+        Rails.stub(:env).and_return("test")
+      end    
     end
   
     it "should have test key" do
