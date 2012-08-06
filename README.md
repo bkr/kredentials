@@ -1,6 +1,6 @@
 # Kredentials
 
-Gem allows to define config constants for different environments.
+Gem allows to define config constants for different Rails environments.
 
 ## Installation
 
@@ -36,6 +36,7 @@ Or install it yourself as:
           :my_subdomain => 'www',
       }
     end
+
 
     HostConfig.my_host  # will return my_host based on the Rails environment you are in
 
