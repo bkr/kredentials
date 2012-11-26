@@ -19,7 +19,7 @@ Or install it yourself as:
 ## Usage
 
     class HostConfig
-      extend Credentials
+      extend Kredentials
 
       @@development = {
           :my_host => 'www.local.myhost.com',
