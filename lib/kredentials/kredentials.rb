@@ -1,4 +1,4 @@
-module Credentials
+module Kredentials
 
   def self.extended(cls)
     cls.cattr_accessor(:config_env)
