@@ -1,3 +1,3 @@
 require "kredentials/version"
-require "kredentials/credentials"
+require "kredentials/kredentials"
 
