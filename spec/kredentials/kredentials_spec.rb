@@ -1,19 +1,19 @@
 require 'spec_helper'
 
 class TestConfig
-  extend Credentials
+  extend Kredentials
   @@test = {:key => 'test'}
 end
 
 class TestDefaultConfig
-  extend Credentials
+  extend Kredentials
   @@defaults = {:key => 'default'}
   @@production = {:key => 'production'}
   @@staging = {:key => 'staging'}
 end
 
 class TestNoStagingConfig
-  extend Credentials
+  extend Kredentials
   @@development = {:key => 'development'}
   @@production = {:key => 'production'}
 end
